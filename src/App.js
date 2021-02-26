@@ -29,7 +29,7 @@ const App = () => {
                 <div className='col-md-7 mx-auto align-self-center text-center'>
                     <div className='card shadow border border-primary'>
                         <div className='card-body align-self-center'>
-                            <h1 className='m-5'>Pronostico del Clima</h1>
+                            <h2 className='m-2 mt-5 mb-5'>Pronostico del Clima</h2>
                             <input type='text' className='form-control text-center border border-primary' placeholder='Ingresa Ciudad o Pais' value={query} onChange={(e) => setQuery(e.target.value)} onKeyPress={search}/>
                             {weather.main ? (
                                 <div className='form-group mt-5 mb-5'>
